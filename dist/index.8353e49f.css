@@ -1,0 +1,40 @@
+body {
+  background-color: #141519;
+  align-content: center;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: #282e36;
+  border-radius: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.circle img {
+  margin: auto;
+  display: block;
+}
+
+#centre-card {
+  width: 400px;
+  color: #959eac;
+  background-color: #212832;
+  border-radius: 15px;
+  margin: 25% auto auto;
+  padding: 15px;
+  font-family: Overpass;
+}
+
+#centre-card h1 {
+  color: #fff;
+  font-weight: 700;
+}
+
+#centre-card p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=index.8353e49f.css.map */

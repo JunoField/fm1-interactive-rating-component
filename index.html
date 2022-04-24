@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.scss">
   
   <title>Frontend Mentor | Interactive rating component</title>
 
@@ -13,21 +14,32 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet"> 
 </head>
 <body>
 
   <!-- Rating state start -->
+  <main id="centre-card">
+    <div class="circle">
+      <img src="images/icon-star.svg"/>
+    </div>
 
-  How did we do?
+    <h1>How did we do?</h1>
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+    <p>Please let us know how we did with your support request. All feedback is appreciated 
+    to help us improve our offering!</p>
 
-  1 2 3 4 5
+    <div id="selections">
+      
+      <label class="circle">1<input type="radio"></label>
+    </div>
 
-  Submit
-
+    Submit
   <!-- Rating state end -->
+  </main>
 
   <!-- Thank you state start -->
 
@@ -36,7 +48,7 @@
   Thank you!
 
   We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
+  don't hesitate to get in touch!
 
   <!-- Thank you state end -->
 
