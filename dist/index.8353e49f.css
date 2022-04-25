@@ -4,8 +4,8 @@ body {
 }
 
 #star {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background-color: #282e36;
   border-radius: 100%;
   align-items: center;
@@ -18,12 +18,12 @@ body {
 }
 
 #centre-card {
-  width: 400px;
+  width: 350px;
   color: #959eac;
   background-color: #212832;
   border-radius: 15px;
   margin: 25% auto auto;
-  padding: 15px;
+  padding: 30px;
   font-family: Overpass;
 }
 
@@ -37,15 +37,25 @@ body {
   font-weight: 400;
 }
 
+#selections {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0;
+  display: flex;
+}
+
 .select-circle {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   cursor: pointer;
+  text-align: center;
   -webkit-user-select: none;
   user-select: none;
   background-color: #282e36;
   border-radius: 100%;
-  display: block;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   position: relative;
 }
 
@@ -57,8 +67,9 @@ body {
   position: absolute;
 }
 
-.select-circle input:checked {
-  background-color: #959eac;
+.select-circle:hover {
+  color: #fff;
+  background-color: #fb7413;
 }
 
 /*# sourceMappingURL=index.8353e49f.css.map */

@@ -20,8 +20,8 @@ body {
     display: flex;
     align-items: center;
     background-color: $circleBgnd;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 100%;    
 
     img{
@@ -35,10 +35,10 @@ body {
 
 #centre-card{
     background-color: $cardBgnd;
-    width: 400px;
+    width: 350px;
     margin: 25% auto auto auto;
     border-radius: 15px;
-    padding: 15px;
+    padding: 30px;
     font-family: 'Overpass';
     color: $lightGrey;
     
@@ -58,19 +58,31 @@ body {
 
 }
 
+#selections{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px 10px 0px;
+    justify-content: space-between;
+}
+
+
 /*credit for radio buttons: https://www.w3schools.com/howto/howto_css_custom_checkbox.asp*/
 .select-circle {
     background-color: $circleBgnd;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 100%;   
-    display: block;
     position: relative;
     cursor: pointer;
+    text-align: center;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    display: flex; /* or inline-flex */
+    align-items: center; 
+    justify-content: center;
+
     
     input {
         position: absolute;
@@ -78,10 +90,13 @@ body {
         cursor: pointer;
         height: 0;
         width: 0;
-
     }
+    
+    
 }
 
-.select-circle input:checked {
-    background-color: $lightGrey;
+
+.select-circle:hover {
+    background-color: $orange;
+    color: $white;
 }
