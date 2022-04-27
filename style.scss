@@ -8,12 +8,34 @@ $cardBgnd: #212832;
 $veryDarkBlue: #141519;
 
 
-
-
 body {
     background-color: $veryDarkBlue;
     align-content: center;
     
+}
+
+#centre-card{
+    background-color: $cardBgnd;
+    width: 325px;
+    margin: 25% auto auto auto;
+    border-radius: 30px;
+    padding: 30px;
+    font-family: 'Overpass';
+    color: $lightGrey;
+    
+
+    h1{
+        font-weight: 700;
+        color: $white;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 15px;
+    }
+
 }
 
 #star {
@@ -31,40 +53,12 @@ body {
     
 }
 
-
-
-#centre-card{
-    background-color: $cardBgnd;
-    width: 350px;
-    margin: 25% auto auto auto;
-    border-radius: 15px;
-    padding: 30px;
-    font-family: 'Overpass';
-    color: $lightGrey;
-    
-
-    h1{
-        font-weight: 700;
-        color: $white;
-    }
-
-    p{
-        font-weight: 400;
-        font-size: 15px;
-    }
-
-
-
-
-}
-
 #selections{
     display: flex;
     flex-direction: row;
     padding: 10px 0px 10px 0px;
     justify-content: space-between;
 }
-
 
 /*credit for radio buttons: https://www.w3schools.com/howto/howto_css_custom_checkbox.asp*/
 .select-circle {
@@ -100,3 +94,34 @@ body {
     background-color: $orange;
     color: $white;
 }
+
+#submit-button{
+    margin-top: 15px;
+    height: 45px;
+    width: 100%;
+    border: none;
+    background-color: $orange;
+    border-radius: 25px;
+    font-family: 'Overpass';
+    color: $white;
+    font-weight: 400;
+    font-size: 16;
+
+    
+}
+
+#submit-button:hover {
+    color: $orange;
+    background-color: $white;
+}
+
+
+.attribution{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    font-family: 'Overpass';
+    color: white;
+}
+
+

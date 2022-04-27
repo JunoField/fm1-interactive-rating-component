@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.scss">
-  <script href="hoverDetect.js"></script>
+  <script src="thanks.js"></script>
   
   <title>Frontend Mentor | Interactive rating component</title>
 
@@ -34,32 +34,24 @@
     to help us improve our offering!</p>
 
     <div id="selections">
-      <label class="select-circle">1<input type="radio" id="radio-one"></label>
+      <label class="select-circle" id="circle-one">1<input type="radio" id="radio-one"></label>
       <label class="select-circle">2<input type="radio" id="radio-two"></label>
       <label class="select-circle">3<input type="radio" id="radio-three"></label>
       <label class="select-circle">4<input type="radio" id="radio-four"></label>
       <label class="select-circle">5<input type="radio" id="radio-five"></label>
     </div>
 
-    Submit
+    
+    <button type="button" id="submit-button" onclick="submitClicked()">SUBMIT</button>
   <!-- Rating state end -->
   </main>
 
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don't hesitate to get in touch!
-
-  <!-- Thank you state end -->
+  
 
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/JunoField" target="_blank">Juno Field</a>.
   </div>
 </body>
 </html>
