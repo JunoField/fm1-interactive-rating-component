@@ -14,7 +14,7 @@ body {
     
 }
 
-#centre-card{
+.centre-card{
     background-color: $cardBgnd;
     width: 325px;
     margin: 25% auto auto auto;
@@ -125,3 +125,18 @@ body {
 }
 
 
+#centre-card-thanks {
+    display: none;
+    text-align: center;
+
+}
+
+#selection-feedback-box{
+    background-color: $circleBgnd;
+    display: flex;
+    justify-content: center;
+    color: $orange;
+    height: 30px;
+    border-radius: 15px;
+    align-items: center; 
+}

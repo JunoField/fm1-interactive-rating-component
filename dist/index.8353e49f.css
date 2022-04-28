@@ -3,7 +3,7 @@ body {
   align-content: center;
 }
 
-#centre-card {
+.centre-card {
   width: 325px;
   color: #959eac;
   background-color: #212832;
@@ -13,14 +13,14 @@ body {
   font-family: Overpass;
 }
 
-#centre-card h1 {
+.centre-card h1 {
   color: #fff;
   margin-top: 25px;
   margin-bottom: 15px;
   font-weight: 700;
 }
 
-#centre-card p {
+.centre-card p {
   font-size: 15px;
   font-weight: 400;
 }
@@ -98,6 +98,21 @@ body {
   position: fixed;
   bottom: 0;
   right: 0;
+}
+
+#centre-card-thanks {
+  text-align: center;
+  display: none;
+}
+
+#selection-feedback-box {
+  color: #fb7413;
+  height: 30px;
+  background-color: #282e36;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.8353e49f.css.map */

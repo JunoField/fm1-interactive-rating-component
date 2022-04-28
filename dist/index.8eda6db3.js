@@ -1,19 +1,13 @@
-let thanksHTML = `
-<!-- Thank you state start -->
-
-<img src="images/illustration-thank-you.svg"/>
-
-You selected insertRatingHere out of 5
-
-Thank you!
-
-We appreciate you taking the time to give a rating. If you ever need more support, 
-don't hesitate to get in touch!
-
-<!-- Thank you state end -->
-`;
 function submitClicked(event) {
-    document.getElementById("centre-card").innerHTML = thanksHTML;
+    document.getElementById("centre-card-select").style.display = "none";
+    document.getElementById("centre-card-thanks").style.display = "block";
+    let rating = 9;
+    if (document.getElementById("radio-one").checked) rating = 1;
+    else if (document.getElementById("radio-two").checked) rating = 2;
+    else if (document.getElementById("radio-three").checked) rating = 3;
+    else if (document.getElementById("radio-four").checked) rating = 4;
+    else if (document.getElementById("radio-five").checked) rating = 5;
+    document.getElementById("selection-feedback-box").innerHTML = 'You selected ' + rating + ' out of 5';
 }
 
 //# sourceMappingURL=index.8eda6db3.js.map
