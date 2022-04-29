@@ -8,10 +8,10 @@ $cardBgnd: #212832;
 $veryDarkBlue: #141519;
 
 
+
 body {
     background-color: $veryDarkBlue;
-    align-content: center;
-    
+    margin-top: -15%;
 }
 
 .centre-card{
@@ -37,6 +37,7 @@ body {
     }
 
 }
+
 
 #star {
     display: flex;
@@ -140,3 +141,4 @@ body {
     border-radius: 15px;
     align-items: center; 
 }
+
