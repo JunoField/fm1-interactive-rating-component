@@ -39,6 +39,8 @@ body {
 }
 
 
+
+
 #star {
     display: flex;
     align-items: center;
@@ -93,6 +95,11 @@ body {
 
 .select-circle:hover {
     background-color: $orange;
+    color: $white;
+}
+
+.select-circle-clicked {
+    background-color: $lightGrey;
     color: $white;
 }
 

@@ -74,6 +74,11 @@ body {
   background-color: #fb7413;
 }
 
+.select-circle-clicked {
+  color: #fff;
+  background-color: #959eac;
+}
+
 #submit-button {
   height: 45px;
   width: 100%;
