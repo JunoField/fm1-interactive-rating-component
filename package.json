@@ -2,5 +2,11 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.5.0",
     "parcel": "^2.5.0"
+  },
+  
+  "scripts": {
+    "build": "npm run parcel && npm run sass",
+    "sass": "sass",
+    "parcel": "parcel build index.html"
   }
 }
