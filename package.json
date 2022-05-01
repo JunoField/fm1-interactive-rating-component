@@ -1,9 +1,0 @@
-{
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.5.0",
-    "parcel": "^2.5.0"
-  },
-  "dependencies": {
-    "gh-pages": "^3.2.3"
-  }
-}
