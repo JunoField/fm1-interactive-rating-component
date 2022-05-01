@@ -5,8 +5,11 @@
   },
   
   "scripts": {
-    "build": "npm run parcel && npm run sass",
-    "sass": "sass",
-    "parcel": "parcel build index.html"
+    "start": "parcel ./index.html",
+    "prebuild-dev": "shx rm -rf dist/*",
+    "build-dev": "parcel build /index.html --no-minify",
+    "prebuild": "shx rm -rf dist/*",
+    "build": "parcel build ./index.html",
+    "push-deploy": "push-dir --dir=dist --branch=deploy --cleanup --verbose"
   }
 }
