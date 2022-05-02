@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/JunoField/fm1-interactive-rating-component](https://github.com/JunoField/fm1-interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://junofield.github.io/fm1-interactive-rating-component/](https://junofield.github.io/fm1-interactive-rating-component/)
 
 ## My process
 
@@ -103,6 +103,11 @@ function handleRad1Change(){
     document.getElementById("circle-one").classList.add("select-circle-clicked");
 }
 ```
+
+Git was also somewhat problematic - mostly because I wanted to have the root project folder commit to the master branch and the /dist folder commit to a separate "deploy" branch. This was rather finicky and unreliable - I would like to find a better solution or simply learn how to do it properly.
+
+
+Finally, I neglected "mobile-first design". I will ensure to do mobile-forst design on all future projects.
 
 
 ## Author
