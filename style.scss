@@ -78,6 +78,7 @@ body {
     display: flex; /* or inline-flex */
     align-items: center; 
     justify-content: center;
+    transition: all 200ms;
 
     
     input {
@@ -113,6 +114,7 @@ body {
     color: $white;
     font-weight: 400;
     font-size: 16;
+    letter-spacing: 2.5px
 
     
 }
