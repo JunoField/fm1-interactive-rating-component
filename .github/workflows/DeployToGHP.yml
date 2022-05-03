@@ -2,14 +2,14 @@ name: Deploy to GitHub Pages
 on:
   push:	
     branches:	
-      - master
+      - main
 
 jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest    
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@main
 
     - name: Deploy
       uses: s0/git-publish-subdir-action@develop
@@ -18,4 +18,4 @@ jobs:
         BRANCH: deploy
         FOLDER: dist
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        MESSAGE: Deploy GitHub Action
+        MESSAGE: "Deployment update from main commit {sha} with message:\n{msg}"
