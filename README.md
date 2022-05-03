@@ -106,7 +106,7 @@ function handleRad1Change(){
 Git was also somewhat problematic - mostly because I wanted to have the root project folder commit to the master branch and the /dist folder commit to a separate "deploy" branch. This was rather finicky and unreliable - I would like to find a better solution or simply learn how to do it properly.
 
 
-Finally, I neglected "mobile-first design". I will ensure to do mobile-forst design on all future projects.
+Finally, I neglected "mobile-first design". I will ensure to do mobile-first design on all future projects.
 
 
 ## Author
