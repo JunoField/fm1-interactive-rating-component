@@ -1,39 +1,14 @@
-
-
 function EnableButtonResetColours(){
     document.getElementById("submit-button").disabled = false;
-    document.getElementById("circle-one").classList.remove("select-circle-clicked");
-    document.getElementById("circle-two").classList.remove("select-circle-clicked");
-    document.getElementById("circle-three").classList.remove("select-circle-clicked");
-    document.getElementById("circle-four").classList.remove("select-circle-clicked");
-    document.getElementById("circle-five").classList.remove("select-circle-clicked");
-
+    for (let i = 1; i <= 5; i++){
+        document.getElementById("circle-" + i).classList.remove("select-circle-clicked");
+    }
 
 }
 
-function handleRad1Change(){
-    EnableButtonResetColours();
-    document.getElementById("circle-one").classList.add("select-circle-clicked");
-}
-
-function handleRad2Change(){
-    EnableButtonResetColours();
-    document.getElementById("circle-two").classList.add("select-circle-clicked");
-}
-
-function handleRad3Change(){
-    EnableButtonResetColours();
-    document.getElementById("circle-three").classList.add("select-circle-clicked");
-}
-
-function handleRad4Change(){
-    EnableButtonResetColours();
-    document.getElementById("circle-four").classList.add("select-circle-clicked");
-}
-
-function handleRad5Change(){
-    EnableButtonResetColours();
-    document.getElementById("circle-five").classList.add("select-circle-clicked");
+function handleRadChange(buttonNumber){
+    EnableButtonResetColours();    
+    document.getElementById("circle-" + buttonNumber).classList.add("select-circle-clicked");
 }
 
 
