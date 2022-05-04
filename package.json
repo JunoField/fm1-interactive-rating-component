@@ -8,7 +8,7 @@
     "prebuild-dev": "shx rm -rf dist/*",
     "build-dev": "parcel build /index.html --no-minify",
     "prebuild": "shx rm -rf dist/*",
-    "build": "parcel build ./index.html --public-url /"
+    "build": "parcel build ./index.html --public-url https://junofield.github.io/fm1-interactive-rating-component"
   },
   "dependencies": {
     "shx": "^0.3.4"
